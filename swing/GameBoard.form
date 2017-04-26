@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="swing.GameBoard">
+  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="48" y="54" width="668" height="607"/>
+    </constraints>
+    <properties>
+      <background color="-16316665"/>
+      <minimumSize width="450" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="7d507" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="4" col-span="2" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentY value="0.0"/>
+          <autoscrolls value="true"/>
+          <background color="-16316665"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="89b5f" class="javax.swing.JButton" binding="stopButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16316665"/>
+              <foreground color="-1041"/>
+              <text value="Stop"/>
+            </properties>
+          </component>
+          <component id="2029c" class="javax.swing.JButton" binding="pauseButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16316665"/>
+              <foreground color="-1041"/>
+              <text value="Pause"/>
+            </properties>
+          </component>
+          <component id="8a737" class="javax.swing.JButton" binding="startButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16316665"/>
+              <foreground color="-1041"/>
+              <text value="Start"/>
+            </properties>
+          </component>
+          <component id="b25c0" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16316665"/>
+              <disabledTextColor color="-1041"/>
+              <editable value="false"/>
+              <foreground color="-1041"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="167de" binding="board" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16316665"/>
+        </properties>
+        <border type="line">
+          <title-color color="-16777216"/>
+          <color color="-1041"/>
+        </border>
+        <children>
+          <component id="8e630" class="javax.swing.JTextArea" binding="textArea2" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16316665"/>
+              <font size="22"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
